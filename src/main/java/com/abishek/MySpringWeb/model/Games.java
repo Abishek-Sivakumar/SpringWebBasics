@@ -40,4 +40,13 @@ public class Games {
     public void setGameGenre(String gameGenre) {
         this.gameGenre = gameGenre;
     }
+
+    @Override
+    public String toString() {
+        return "Games{" +
+                "gameId=" + gameId +
+                ", gameName='" + gameName + '\'' +
+                ", gameGenre='" + gameGenre + '\'' +
+                '}';
+    }
 }
